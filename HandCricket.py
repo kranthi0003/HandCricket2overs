@@ -22,7 +22,7 @@ def User_Batting1st():
     print("------",(score_user+1),"is the target----")
     print("...........Innings break............")
     time.sleep(7)
-    print("                   Your Opponent Bowling Starts                 \n")
+    print("                   Your Opponent Batting Starts                 \n")
     for i in range(12):
         print("Ball",(i+1),"\n")
         bo=int(input())
